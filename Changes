@@ -1,0 +1,10 @@
+Revision history for Perl extension Acme::Tie::Map.
+
+0.03  Fri Mar 19 2004
+        - version that was actually uploaded to CPAN
+	- renamed to Acme::Tie::Map
+
+0.01  Thu Feb 21 2002
+	- original version; created by h2xs 1.21 with options
+		-X -v 0.01 -n Tie::Map -b 5.5.0
+

@@ -1,0 +1,28 @@
+NAME
+    Acme::Tie::Map - Ties a function to a scalar
+
+REQUIREMENTS
+    Only standard modules are used.
+
+SYNOPSIS
+      use Acme::Tie::Map;
+
+      sub quote {
+        my $t = shift;
+        return "``$t\'\'";
+      }
+
+      tie $x, 'Acme::Tie::Map', \&quote;
+
+      $t = "some text";
+      print $t;          # outputs ``some text''
+
+DESCRIPTION
+    This is an experimental module to apply a function to a scalar.
+
+AUTHOR
+    Robert Rothenberg <rrwo at cpan.org>
+
+LICENSE
+    This module is in the public domain. No copyright is claimed.
+
